@@ -5,13 +5,12 @@ and welcome to the my class portfolio.
 
 This is for a ***CIS185*** class I took, I'll be storing the projects I submit to the class here.
 
-  
 
-> ../Week1/Assignment1
+## ../Week1/Assignment1/
 
 This assignment had these requirements:
 
-1. ../week1/assignment1/ file structure
+1. []../week1/assignment1/ file structure
 2. Use at least 5 different HTML elements labelled in the MDN HTML Elements Reference page
 3. README.md file that documents usage of HTML elements
 4. Style at least 3 of them with CSS
@@ -28,7 +27,7 @@ Elements:
 
 * `<dt>` & `<dd>`
 >"description term" & "description detail"
->I use it to make a pseudo bullet point lists with my different portfolio elements
+>I used them to make pseudo bullet point lists with my different portfolio elements
 
 * `<aside>`
 >"aside"
@@ -36,7 +35,7 @@ Elements:
 
 * `<bdo>`
 >"bidirectional text"
-> Made into a cool text reversing effect, though that is not its main use case of displaying non- left-to-right language text
+>Made into a cool text reversing effect, though that is not its main use case of displaying non- left-to-right language text
 
 * `<code>`
 >"code"
