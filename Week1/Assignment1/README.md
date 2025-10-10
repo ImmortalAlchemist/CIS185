@@ -10,11 +10,11 @@ This is for a ***CIS185*** class I took, I'll be storing the projects I submit t
 
 This assignment had these requirements:
 
-1. []../week1/assignment1/ file structure
-2. Use at least 5 different HTML elements labelled in the MDN HTML Elements Reference page
-3. README.md file that documents usage of HTML elements
-4. Style at least 3 of them with CSS
-5. Created and stored these files on a Github
+1. [X]../week1/assignment1/ file structure
+2. [X]Use at least 5 different HTML elements labelled in the MDN HTML Elements Reference page
+3. [O]README.md file that documents usage of HTML elements (writing this after the fact, I didn't do this cause I forgot)
+4. [X]Style at least 3 of them with CSS
+5. [X]Created and stored these files on a Github
 
 Suggested Elements:
 - `<details>` & `<summary>`

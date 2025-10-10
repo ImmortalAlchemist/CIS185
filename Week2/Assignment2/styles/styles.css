@@ -1,8 +1,60 @@
+/* Makes dimensions consistent by including padding and border in dimensions */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* font */
+@font-face {
+    font-family: GentleGiant;
+    src: url('../fonts/gentle-giant.otf.woff2') format('woff2') /*url(https://fontstruct.com/fontstructions/download/2316147)*/
+}
+
+/* color */
+@property --color1 {
+    syntax: "<color1>";
+    inherits: false;
+    initial-value: #f00b40;
+}
+
 aside {
-    width: 40%;
+    width: fit-content;
     padding-left: 0.5rem;
     margin-left: 0.5rem;
     float: right;
-    box-shadow: inset 5px 0 5px -5px #01d4a7;
-    color: #01d107;
-    }
+}
+
+/* #grid id */
+#projects {
+    display: grid;
+    grid: repeat(2, 60px) / auto-flow 80px;
+}
+#projects > div {
+    background-color: #f00b40;
+    /* background-color: var(--color1); */
+    width: 64px;
+    height: 24px;
+    padding: 5%;
+}
+#myfont {
+    font-family: 'GentleGiant';
+}
+
+
+
+/* .flexbox class */
+.box {
+    border: 2px dotted rgb(96 139 168);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(96 139 168 / 0.2);
+    padding: 1em;
+}
+.box > * {
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+    background-color: rgb(96 139 168 / 0.2);
+    padding: 1em;
+}
+
