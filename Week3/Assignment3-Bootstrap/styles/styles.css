@@ -18,7 +18,7 @@
 @property --color1 {
     syntax: "<color1>";
     inherits: false;
-    initial-value: #f00b40;
+    initial-value: #00ff00;
 }
 
 aside {
@@ -31,16 +31,18 @@ aside {
 /* #grid id */
 #projects {
     display: grid;
-    grid: repeat(2, 60px) / auto-flow 80px;
+    grid: repeat(2, 60px) / auto-flow 100px;
 }
 #projects > div {
-    background-color: #f00b40;
+    background-color: #00ff00;
     /* background-color: var(--color1); */
-    width: 64px;
-    height: 24px;
+    width: 80px;
+    height: 32px;
     padding: 5%;
 }
-
+#projects > myfont {
+    font-family: 'GentleGiant';
+}
 
 
 
