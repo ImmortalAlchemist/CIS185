@@ -13,8 +13,8 @@ This assignment had these requirements:
  * Footer: Copyright, additional links
 4. [X]Flexbox, grid for layout
 5. [X]Follow accessibility guidelines (proper contrast)
-6. [O]Use custom CSS variables for colors and spacing
-7. [O]At least one form element
+6. [X]Use custom CSS variables for colors and spacing
+7. [X]At least one form element
 8. [X]Custom font
 9. [X]README.md file
 10. [X]week2/assignment2/ file structure
