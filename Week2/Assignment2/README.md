@@ -12,21 +12,23 @@ This assignment had these requirements:
  * Projects/Work: At least 3 project cards
  * Footer: Copyright, additional links
 4. [X]Flexbox, grid for layout
-5. [X?]Follow accessibility guidelines (proper contrast)
+5. [X]Follow accessibility guidelines (proper contrast)
 6. [O]Use custom CSS variables for colors and spacing
 7. [O]At least one form element
 8. [X]Custom font
-8. [X]README.md file
-9. [X]week2/assignment2/ file structure
+9. [X]README.md file
+10. [X]week2/assignment2/ file structure
 
 ### Flexbox/Grid Implementation:
+ * Sections
+    * Header
+    Used flexbox to make a nav bar for this.
 
+    * About & Footer
+    Combined these two sections, and put the image with alt text here, and the copywrite information.
 
- * Flexbox
-Flexbox was used for the Header.
-
- * Grid
-Grid was used for the project navigation.
+    * Projects
+    Included sections for each of the creeds I have worked in & used grid to create navigation for it.
 
 #### Tips (mostly for myself)
 ctrl + / to comment things in or out

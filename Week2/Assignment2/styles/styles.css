@@ -16,15 +16,21 @@
 
 /* color */
 @property --color1 {
-    syntax: "<color1>";
-    inherits: false;
-    initial-value: #f00b40;
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #00ff00;
+}
+/* aside spacing */
+@property --asidespacing{
+    syntax: "<length>";
+    inherits: true;
+    initial-value: 0.5rem;
 }
 
 aside {
     width: fit-content;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
+    padding-left: var(--asidespacing);
+    margin-left: var(--asidespacing);
     float: right;
 }
 
@@ -34,8 +40,7 @@ aside {
     grid: repeat(2, 60px) / auto-flow 80px;
 }
 #projects > div {
-    background-color: #f00b40;
-    /* background-color: var(--color1); */
+    background-color: var(--color1);
     width: 64px;
     height: 24px;
     padding: 5%;
