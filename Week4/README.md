@@ -22,7 +22,7 @@ This assignment had these requirements:
  * reverseArray
  * removeDuplicates
  * 
- * 
+ * findSecondLargest
 
 6. [0] challenge.js
 

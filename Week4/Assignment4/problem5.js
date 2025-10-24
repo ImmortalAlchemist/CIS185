@@ -49,6 +49,22 @@ function removeDuplicates(arr) {
 function rotateArray(arr, positions) {
     // Rotate array to the right by 'positions'
     // Handle positions larger than array length
+
+    let rotatedArr = [];
+    let finalElem = arr.length - 1;
+    let newPosition = 0;
+
+    //normalize rotation
+    positions = positions % arr.length;
+
+    //for normal & overflow rotation
+    for (let i = 0; i < arr.length; i++) {
+        newPosition = i + positions;
+        newPosition = newPosition % arr.length;
+        rotatedArr[newPosition] = arr[i];
+    }
+
+    return rotatedArr;
 }
 
 function findSecondLargest(numbers) {
@@ -59,22 +75,14 @@ function findSecondLargest(numbers) {
 
         //start largest number
         let largest = numbers[0];
-
-        //first loop of 
-        if (numbers[1] > largest) {
-            let secondLargest = largest;
-            largest = numbers[1];
-        }
-        else {
-            let secondLargest = numbers[1];
-        }
+        let secondLargest = null;
 
         //update
-        for (let i = 2; i < numbers.length; i++) {
+        for (let i = 1; i < numbers.length; i++) {
             if (numbers[i] > largest) {
                 secondLargest = largest;
                 largest = numbers[i];
-            } else if (numbers[i] > secondLargest) {
+            } else if (numbers[i] > secondLargest && numbers[i] < largest) {
                 secondLargest = numbers[i];
             }
         }
@@ -97,11 +105,11 @@ console.log(removeDuplicates([1, 2, 2, 3, 1, 4])); //[1, 2, 3, 4]
 console.log(removeDuplicates(["a", "b", "a", "c"])); //["a", "b", "c"]
 
 console.log("\nrotateArray tests");
-console.log(rotateArray([1, 2, 3, 4], 1));
-console.log(rotateArray([1, 2, 3, 4], 2));
-console.log(rotateArray([1, 2, 3], 4));
+console.log(rotateArray([1, 2, 3, 4], 1)); //[4, 1, 2, 3]
+console.log(rotateArray([1, 2, 3, 4], 2)); //[3, 4, 1, 2]
+console.log(rotateArray([1, 2, 3], 4)); //[3, 1, 2] (4 % 3 = 1 rotation)
 
 console.log("\nfindSecondLargest tests");
-console.log(findSecondLargest([10, 20, 30, 40]));
-console.log(findSecondLargest([5, 5, 5]));
-console.log(findSecondLargest([100, 50, 100, 75]));
+console.log(findSecondLargest([10, 20, 30, 40])); //30
+console.log(findSecondLargest([5, 5, 5])); //null
+console.log(findSecondLargest([100, 50, 100, 75])); //75
