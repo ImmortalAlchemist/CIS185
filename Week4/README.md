@@ -18,17 +18,17 @@ This assignment had these requirements:
  * createNumberStaircase
  * createCheckerboard
  * createPyramid
-5. [0] problem5.js
+5. [0.5] problem5.js
+ * reverseArray
+ * removeDuplicates
+ * 
  * 
 
 6. [0] challenge.js
 
 ## ../Week4/Assignment4/
+(implementation comments are in the files)
 
-1. 
-
-### Manual responsiveness vs Bootstrap:
- * h
 
 #### Tips (mostly for myself)
 ctrl + / to comment things in or out
