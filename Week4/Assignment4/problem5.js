@@ -51,7 +51,6 @@ function rotateArray(arr, positions) {
     // Handle positions larger than array length
 
     let rotatedArr = [];
-    let finalElem = arr.length - 1;
     let newPosition = 0;
 
     //normalize rotation
