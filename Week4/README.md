@@ -18,10 +18,10 @@ This assignment had these requirements:
  * createNumberStaircase
  * createCheckerboard
  * createPyramid
-5. [0.5] problem5.js
+5. [1] problem5.js
  * reverseArray
  * removeDuplicates
- * 
+ * rotateArray
  * findSecondLargest
 
 6. [0] challenge.js
