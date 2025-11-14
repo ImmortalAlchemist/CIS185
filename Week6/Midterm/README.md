@@ -2,9 +2,9 @@
 
 This assignment had these requirements:
 
-1. [0] Core features
-  * [0] HTML Canvas
-  * [0] Server integration
+1. [0.666?] Core features
+  * [1?] HTML Canvas
+  * [1?] Server integration
   * [0] Responsive design
 
 2. [0.333] Preliminary work
@@ -74,7 +74,8 @@ Hiring managers at tech companies who are interested enough in my resume and cov
 - AI: (none yet)
 
 #### Tips (mostly for myself)
-ctrl + / to comment things in or out
-"!" to put in the boilerplate code
+* ctrl + / to comment things in or out
+* "!" to put in the boilerplate code
+* put the script element at the bottom of the page
 
 */
