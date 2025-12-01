@@ -1,3 +1,10 @@
+/* Makes dimensions consistent by including padding and border in dimensions */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   display: grid;
   grid-template-areas: "control log";
@@ -7,4 +14,22 @@ body {
 label,
 button {
   display: block;
+}
+
+/* interactive-portfolio id */
+canvas { /* Mobile */
+    width: 256;
+    height: 144;
+}
+@media (min-width: 768px) { /* Tablet */
+    canvas {
+      width: 512;
+      height: 288;
+    }
+}
+@media (min-width: 1024px) { /* Desktop */
+    canvas {
+      width: 512;
+      height: 288;
+    }
 }

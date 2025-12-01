@@ -2,9 +2,10 @@
 
 This assignment had these requirements:
 
-1. [0.666?] Core features
-  * [1?] HTML Canvas
-  * [1?] Server integration
+1. [0.375] Core features
+  * [1] HTML Canvas
+  * [0] Form
+  * [0.5] Server integration
   * [0] Responsive design
 
 2. [0.333] Preliminary work

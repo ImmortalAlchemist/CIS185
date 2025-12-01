@@ -1,0 +1,24 @@
+# Logs
+Week10/Assignment5/logs
+Week10/Assignment5/*.log
+Week10/Assignment5/npm-debug.log*
+Week10/Assignment5/yarn-debug.log*
+Week10/Assignment5/yarn-error.log*
+Week10/Assignment5/pnpm-debug.log*
+Week10/Assignment5/lerna-debug.log*
+
+Week10/Assignment5/node_modules
+Week10/Assignment5/dist
+Week10/Assignment5/dist-ssr
+Week10/Assignment5/*.local
+
+# Editor directories and files
+Week10/Assignment5/.vscode/*
+Week10/Assignment5/!.vscode/extensions.json
+Week10/Assignment5/.idea
+Week10/Assignment5/.DS_Store
+Week10/Assignment5/*.suo
+Week10/Assignment5/*.ntvs*
+Week10/Assignment5/*.njsproj
+Week10/Assignment5/*.sln
+Week10/Assignment5/*.sw?
