@@ -3,7 +3,10 @@
     position: absolute;
 }
 
-/* title */
+/* #enem {
+    fill: red;
+} */
+
 #title {
     display: block;
     position: absolute;
@@ -11,17 +14,11 @@
 }
 
 
-/* Mobile */
-/* .trails {
+#trails {
     position: absolute;
 
-    width: 640px;
-    height: 320px;
-
-    border: 4px solid black;
-
     clear: both;
-} */
+}
 #playfield {
     position: absolute;
 
@@ -30,49 +27,3 @@
 
     clear: both;
 }
-
-/* Tablet
-@media (min-width: 768px) { 
-    .trails {
-        position: absolute;
-
-        width: 640px;
-        height: 360px;
-
-        border: 4px solid black;
-
-        clear: both;
-    }
-
-    .playfield {
-        position: absolute;
-
-        width: 640px;
-        height: 360px;
-
-        clear: both;
-    }
-}
-
-Desktop
-@media (min-width: 1280px) {
-    .trails {
-        position: absolute;
-
-        width: 1280px;
-        height: 720px;
-
-        border: 4px solid black;
-
-        clear: both;
-    }
-
-    .playfield {
-        position: absolute;
-
-        width: 1280px;
-        height: 720px;
-
-        clear: both;
-    }
-} */
